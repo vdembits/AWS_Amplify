@@ -1,0 +1,57 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ampml-dev-194550-authRole",
+      "UnauthRoleArn": "arn:aws:iam::871217484780:role/amplify-ampml-dev-194550-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::871217484780:role/amplify-ampml-dev-194550-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ampml-dev-194550-deployment",
+      "UnauthRoleName": "amplify-ampml-dev-194550-unauthRole",
+      "StackName": "amplify-ampml-dev-194550",
+      "StackId": "arn:aws:cloudformation:us-east-1:871217484780:stack/amplify-ampml-dev-194550/52503010-ca0b-11eb-bf57-0a678302cb6b",
+      "AmplifyAppId": "d2u063249w6fra",
+      "AuthTriggerTemplateURL": ""
+    }
+  },
+  "auth": {
+    "ampmle09e8c35": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ampml-dev-194550-deployment/amplify-cfn-templates/auth/ampmle09e8c35-cloudformation-template.yml",
+        "logicalId": "authampmle09e8c35"
+      },
+      "lastPushTimeStamp": "2021-06-10T16:56:09.241Z",
+      "output": {
+        "UserPoolId": "us-east-1_bYpC6Al4t",
+        "AppClientIDWeb": "7udchnl2dep6nvfu90rlcgslji",
+        "AppClientID": "6f07mbo0f4bvcgquia186jr5ri",
+        "IdentityPoolId": "us-east-1:0e8c2f64-6b45-44ba-b5a6-cf89c70a695b",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:871217484780:userpool/us-east-1_bYpC6Al4t",
+        "IdentityPoolName": "ampmle09e8c35_identitypool_e09e8c35__dev",
+        "UserPoolName": "ampmle09e8c35_userpool_e09e8c35"
+      },
+      "lastPushDirHash": "2jPuhHegA+iT5J3VHWbw0Xo4e14="
+    }
+  },
+  "predictions": {
+    "identifyTextc8dfd6cf": {
+      "providerPlugin": "awscloudformation",
+      "service": "RekognitionAndTextract",
+      "dependsOn": [],
+      "identifyType": "identifyText",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ampml-dev-194550-deployment/amplify-cfn-templates/predictions/identifyTextc8dfd6cf-template.json",
+        "logicalId": "predictionsidentifyTextc8dfd6cf"
+      },
+      "lastPushTimeStamp": "2021-06-10T16:56:09.241Z",
+      "output": {
+        "format": "ALL",
+        "region": "us-east-1"
+      },
+      "lastPushDirHash": "kYvOy2j6dwDo1J70OncQTK2R2Jk="
+    }
+  }
+}
